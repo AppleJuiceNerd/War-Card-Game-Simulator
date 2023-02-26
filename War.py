@@ -32,8 +32,8 @@ class Deck:
 		self.Deck = []
 
 		#initialize deck
-		for s in range(4):
-			for v in range(13):
+		for s in range(4):  #suit
+			for v in range(13):  #value
 				self.Deck.append(Card(v, s))
 
 	def Deal(self, plr1, plr2):
